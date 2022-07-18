@@ -1,0 +1,49 @@
+.containerS {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  flex-basis: 50%;
+  height: 100%;
+}
+
+.smallPanel {
+  flex-basis: 50%;
+  height: 50%;
+}
+.smallPanelB {
+  flex-basis: 50%;
+  height: 50%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.containerContent {
+  flex-grow: 10;
+}
+
+.bodyText {
+  background-color: #a33c2a;
+  height: 33.333vh;
+}
+
+.bodyTextB {
+  background-color: #f04d32;
+  height: 66.666vh;
+}
+
+.sidebar {
+  background-color: #f0ac1a;
+  flex-grow: 1;
+  height: 100vh;
+}
+
+.sidebarRight {
+  background-color: #a37309;
+  flex-grow: 1;
+  height: 100vh;
+}
